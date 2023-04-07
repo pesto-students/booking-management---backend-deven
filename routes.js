@@ -11,17 +11,18 @@ let routes = (app) => {
   router.post("/users/authenticate", auth.login);
   router.post("/users/register", auth.register);
 
+  //properties
   router.get("/properties", authenticate, property.getAll);
   router.post("/properties", authenticate, property.create);
-  // router.get("/properties/:id", authenticate, property.getById);
-  router.get("/properties/:id", property.getById);
+
+  router.get("/properties/:id", property.getById); // guest
   router.put("/properties/:id", authenticate, property.updateById);
   router.delete("/properties/:id", authenticate, property.deleteById);
 
   router.get("/bookings", authenticate, booking.getAll);
-  router.post("/bookings", booking.create); // allow for checkout
-  // router.get("/bookings/:id", authenticate, bookings.getById);
-  router.get("/bookings/:id", booking.getById);
+  router.post("/bookings", booking.create); //  guest
+  router.get("/bookings/:id", booking.getById); // guest
+
   router.put("/bookings/:id", authenticate, booking.updateById);
   router.delete("/bookings/:id", authenticate, booking.deleteById);
 
