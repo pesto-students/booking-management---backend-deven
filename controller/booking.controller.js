@@ -1,6 +1,7 @@
 const Booking = require("../db/models/Booking");
 const { default: mongoose } = require("mongoose");
 const yup = require("yup");
+const { sendBookingEmail } = require("../lib/sendEmail");
 
 const getAll = async (req, res) => {
   const { page = 1, limit = 10 } = req.query; // default to first page with 10 items per page
@@ -65,6 +66,21 @@ const create = async (req, res) => {
 
   try {
     const savedBooking = await booking.save();
+
+    const to = booking.email;
+    const subject = "Booking confirmation email";
+    const data = {
+      name: booking.name,
+      email: booking.email,
+      dateCheckIn: booking.dateCheckIn,
+      dateCheckOut: booking.dateCheckOut,
+      adults: booking.adults,
+      children: booking.children,
+      room: booking.room,
+      specialRequest: booking.specialRequest,
+    };
+    const info = await sendBookingEmail({ to, subject, data });
+
     res.status(201).json(savedBooking);
   } catch (err) {
     res.status(400).json({ message: err.message });
