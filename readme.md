@@ -27,6 +27,13 @@ npm install
 npm start
 ```
 
+# How to test
+
+```
+./node_modules/.bin/jest app.test.js --detectOpenHandles --silent --forceExit
+
+```
+
 # Todo
 
 - Add .env file for db configuration
