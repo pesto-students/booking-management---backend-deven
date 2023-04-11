@@ -31,6 +31,7 @@ npm start
 
 ```
 ./node_modules/.bin/jest app.test.js --detectOpenHandles --silent --forceExit
+./node_modules/.bin/jest app.test.js --detectOpenHandles  --forceExit
 
 ```
 
