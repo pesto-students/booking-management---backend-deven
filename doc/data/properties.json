@@ -1,0 +1,204 @@
+[
+    {
+      "name": "The Grand Hotel",
+      "destination": "Admedabad",
+      "roomTypes": [
+        {
+          "name": "Delux",
+          "price": 1200
+        },
+        {
+          "name": "Super Delux",
+          "price": 2000
+        },
+        {
+          "name": "Luxury",
+          "price": 3000
+        }
+      ],
+      "status": true,
+      "createdAt": "2022-03-19T08:30:00.000Z",
+      "modifiedAt": "2022-03-19T08:30:00.000Z"
+    },
+    {
+      "name": "The Ritz Carlton",
+      "destination": "Delhi",
+      "roomTypes": [
+        {
+          "name": "Delux",
+          "price": 1500
+        },
+        {
+          "name": "Super Delux",
+          "price": 2500
+        },
+        {
+          "name": "Luxury",
+          "price": 3500
+        }
+      ],
+      "status": true,
+      "createdAt": "2022-03-20T10:45:00.000Z",
+      "modifiedAt": "2022-03-20T10:45:00.000Z"
+    },
+    {
+      "name": "The Plaza Hotel",
+      "destination": "Mumbai",
+      "roomTypes": [
+        {
+          "name": "Delux",
+          "price": 1300
+        },
+        {
+          "name": "Super Delux",
+          "price": 2300
+        },
+        {
+          "name": "Luxury",
+          "price": 3300
+        }
+      ],
+      "status": true,
+      "createdAt": "2022-03-21T15:20:00.000Z",
+      "modifiedAt": "2022-03-21T15:20:00.000Z"
+    },
+    {
+      "name": "The Marriott Hotel",
+      "destination": "Chennai",
+      "roomTypes": [
+        {
+          "name": "Delux",
+          "price": 1400
+        },
+        {
+          "name": "Super Delux",
+          "price": 2400
+        },
+        {
+          "name": "Luxury",
+          "price": 3400
+        }
+      ],
+      "status": true,
+      "createdAt": "2022-03-22T11:10:00.000Z",
+      "modifiedAt": "2022-03-22T11:10:00.000Z"
+    },
+    {
+      "name": "The Sheraton Hotel",
+      "destination": "Kolkata",
+      "roomTypes": [
+        {
+          "name": "Delux",
+          "price": 1600
+        },
+        {
+          "name": "Super Delux",
+          "price": 2600
+        },
+        {
+          "name": "Luxury",
+          "price": 3600
+        }
+      ],
+      "status": true,
+      "createdAt": "2022-03-23T14:50:00.000Z",
+      "modifiedAt": "2022-03-23T14:50:00.000Z"
+    },
+    {
+        "name": "Hotel Sunshine",
+        "destination": "Mumbai",
+        "roomTypes": [
+          {
+            "name": "Delux",
+            "price": 1500
+          },
+          {
+            "name": "Super Delux",
+            "price": 2000
+          },
+          {
+            "name": "Luxury",
+            "price": 3000
+          }
+        ],
+        "status": true
+      },
+      {
+        "name": "Grand Hotel",
+        "destination": "Kolkata",
+        "roomTypes": [
+          {
+            "name": "Delux",
+            "price": 2000
+          },
+          {
+            "name": "Super Delux",
+            "price": 2500
+          },
+          {
+            "name": "Luxury",
+            "price": 3500
+          }
+        ],
+        "status": true
+      },
+      {
+        "name": "Hotel Oceana",
+        "destination": "Chennai",
+        "roomTypes": [
+          {
+            "name": "Delux",
+            "price": 1800
+          },
+          {
+            "name": "Super Delux",
+            "price": 2300
+          },
+          {
+            "name": "Luxury",
+            "price": 3200
+          }
+        ],
+        "status": true
+      },
+      {
+        "name": "Hotel Plaza",
+        "destination": "Delhi",
+        "roomTypes": [
+          {
+            "name": "Delux",
+            "price": 2200
+          },
+          {
+            "name": "Super Delux",
+            "price": 2700
+          },
+          {
+            "name": "Luxury",
+            "price": 3800
+          }
+        ],
+        "status": true
+      },
+      {
+        "name": "Hotel Pacific",
+        "destination": "Admedabad",
+        "roomTypes": [
+          {
+            "name": "Delux",
+            "price": 1900
+          },
+          {
+            "name": "Super Delux",
+            "price": 2400
+          },
+          {
+            "name": "Luxury",
+            "price": 3300
+          }
+        ],
+        "status": true
+      }
+      
+]
+  

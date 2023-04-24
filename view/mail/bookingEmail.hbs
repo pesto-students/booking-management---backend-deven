@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <p>Dear {{data.name}},</p>
+    <p>Your booking at our property has been confirmed. Here are the details:</p>
+    <ul>
+        <li>Check-in date: {{data.dateCheckIn}}</li>
+        <li>Check-out date: {{data.dateCheckOut}}</li>
+        <li>Number of adults: {{data.adults}}</li>
+        <li>Number of children: {{data.children}}</li>
+        <li>Room: {{data.room}}</li>
+        {{#if data.specialRequest}}
+        <li>Special request: 
+          <br>
+        {{data.specialRequest}}</li>
+        {{/if}}
+    </ul>
+    <p>Thank you for choosing our property. We look forward to seeing you soon.</p>
+    <p>Pesto Booking System</p>
+</body>
+</html>
